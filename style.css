@@ -1,0 +1,52 @@
+body {
+	background-color: #413c3c;
+}
+
+.pos-center {
+	text-align: center;
+	margin-top: calc(50vh - 50px);
+}
+
+[class^="btn-"]{
+	display: inline-block;
+	margin: 4px 2px;
+	padding: 15px 30px;
+	min-width: 160px;
+	height: 50px;
+	font-size: 16px;
+	font-weight: 500;
+	border-radius: 5px;
+	cursor: pointer;
+	background-color: inherit;
+	border: 2px solid;
+	transition: 0.3s;
+	webkit-transition: 0.3s;
+	background-position: 100% 0;
+	background-size: 300%;
+}
+
+.btn-purple {
+	border-color: #8e44ad;
+	color: #8e44ad;
+	background-image: -webkit-linear-gradient(0deg, #8e44ad 50%, transparent 50%);
+	background-image: linear-gradient(90deg, #8e44ad 50%, transparent 50%);
+}
+
+.btn-yellow {
+	border-color: #f1c40f;
+	color: #f1c40f;
+	background-image: -webkit-linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+	background-image: linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+}
+
+.btn-blue {
+	border-color: #3498db;
+	color: #3498db;
+	background-image: -webkit-linear-gradient(315deg, #3498db 50%, transparent 50%);
+	background-image: linear-gradient(135deg, #3498db 50%, transparent 50%);
+}
+
+.btn-purple:hover, .btn-yellow:hover, .btn-blue:hover {
+	background-position: 0 100%;
+	color: white;
+	background-size: 300%;	
